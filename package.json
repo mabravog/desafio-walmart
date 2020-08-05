@@ -1,0 +1,8 @@
+{
+  "name": "desafio-walmart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mabravog/desafio-walmart.git",
+  "author": "Matías Bravo <mabravogalvez@gmail.com>",
+  "license": "MIT"
+}
