@@ -1,8 +1,10 @@
 const http = require('http');
+const fs = require('fs');
+const index = fs.readFileSync('index.html');
 
 const requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('Hello, World!');
+  res.end(index);
 }
 
 const server = http.createServer(requestListener);
