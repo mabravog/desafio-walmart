@@ -13,7 +13,8 @@ function router(req, res) {
 
         case '/products':
             res.writeHead(200);
-            res.end({});
+            res.setHeader('Content-Type', 'application/json');
+            res.end('{ id: 1 }');
             break;
     
         default:
