@@ -9,7 +9,9 @@
   "author": "Matías Bravo <mabravogalvez@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^3.6.0",
-    "mongoose": "^5.9.28"
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0",
+    "mongodb": "^3.6.0"
   }
 }
