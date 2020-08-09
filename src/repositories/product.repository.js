@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb')
 
 class ProductRepository {
     constructor() {
-        const uri = "mongodb://productListUser:productListPassword@localhost?retryWrites=true&w=majority";
+        const uri = "mongodb://productListUser:productListPassword@host.docker.internal?retryWrites=true&w=majority";
         this.client = new MongoClient(uri, { useUnifiedTopology: true });
     }
 
