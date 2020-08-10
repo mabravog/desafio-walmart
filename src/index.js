@@ -3,5 +3,5 @@ const app = new Koa();
 const { routes } = require('./router');
 
 app.use(routes);
-
-app.listen(7000);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT);
